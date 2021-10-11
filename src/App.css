@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quote{
+  background: url('./images/jack-prichett-MliheRJu0sk-unsplash.jpg');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-c{
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.quote-area{
+  min-width: 50vw;
+  max-width: 50vw;
+  border-radius: 2.3rem;
+  padding:1.5rem;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quote-area h2{
+  font-size: 2.5rem;
+}
+.quote-area h3{
+  font-style: italic;
+}
+
+.btn-style{
+  font-size: 1.5rem;
+  padding: 0.8rem 1.5rem;
 }
